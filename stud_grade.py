@@ -1,14 +1,14 @@
 # Student Grading System
 
-# Input student details
-name = input("Enter student name: ")
-department = input("Enter department: ")
-semester = input("Enter semester: ")
+# Student details (hard-coded)
+name = "Gayatri"
+department = "Computer Science"
+semester = "Semester 2"
 
-# Input marks
-m1 = float(input("Enter marks for Subject 1: "))
-m2 = float(input("Enter marks for Subject 2: "))
-m3 = float(input("Enter marks for Subject 3: "))
+# Marks (hard-coded)
+m1 = 85
+m2 = 78
+m3 = 92
 
 # Calculate average
 average = (m1 + m2 + m3) / 3
@@ -32,5 +32,5 @@ print("\n--- Student Report ---")
 print("Name:", name)
 print("Department:", department)
 print("Semester:", semester)
-print("Average Marks:", average)
+print("Average Marks:", round(average, 2))
 print("Grade:", grade)
