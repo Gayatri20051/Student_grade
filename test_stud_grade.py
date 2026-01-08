@@ -1,5 +1,5 @@
 import pytest
-from student_grading import calculate_grade
+from stud_grade import calculate_grade
 
 # -------- Grade S (90–100) --------
 def test_grade_s_1():
