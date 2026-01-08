@@ -7,5 +7,7 @@ WORKDIR /app
 # Copy application file
 COPY . .
 
+RUN pip install pytest
+
 # Run the program
 CMD ["python", "stud_grade.py"]
